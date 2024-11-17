@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aston Martin cars project">
+    <meta name="author" content="Ana-Maria">
+    <link rel="icon"  type="image.png" href="favicon.ico">
+    <title>Aston Martin - A luxury car brand</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            background-color: rgb(36, 77, 77);
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav-links li {
+            margin-left: 20px;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            padding: 10px;
+            display: block;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        
+       
+        .nav-links li a:hover {
+            color: black;
+            background-color: rgb(77, 127, 127);
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        .logo img {
+            height: 90px;
+            width: auto;
+        }
+
+        </style>
+
+</head>
+<body>
+<header>
+    
+    <nav class="navbar"> 
+        <div class="container">
+            <a href="a" class="logo">
+                <img src="aston-martin-logo-png-transparent.png" alt="Aston Martin logo">
+
+            </a>
+            <ul class="nav-links">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    
+</header>
+    
+</body>
+</html>
