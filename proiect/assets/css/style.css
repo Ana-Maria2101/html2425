@@ -1,3 +1,4 @@
+
 /* START HEADER */
 .logo {
     width: 100%;
@@ -22,10 +23,13 @@ nav ul li {
     display: inline;
     padding: 20px 25px;
     list-style-type: none;
+    transition: transform 0.3s ease-in-out;
 }
 nav ul li:hover, nav ul li.active{
   
     background-color: rgba(27, 78, 78, 0.745);
+    
+  
 }
 /* .active{
 background-color: rgba(27, 78, 78, 0.75) */
@@ -58,13 +62,39 @@ nav ul li a {
 .container{
     margin: 20px 0px;
     padding: 10px 30px;
+
+}
+.galerie {
+    width: 100%;
+    text-align: center;
 }
 #foto{
     width: 100%;
-    max-width: 1600px;
-    margin: auto;
+    max-width: 1100px;
+    margin: 50px;
+    background-color: darkslategray;
+    
 }
 #foto img.foto{
     display: inline-block;
-    margin: 20px 20px;
+    margin: 5px 5px;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+
+}
+.container img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
