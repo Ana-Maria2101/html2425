@@ -1,4 +1,9 @@
 
+body {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
 /* START HEADER */
 .logo {
     width: 100%;
@@ -46,22 +51,97 @@ nav ul li a {
 #banner{
     width: 100%;
     height: 600px;
-    background-image: url(../images/Ford-Cortina-Lotus-1900x600.png);
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     
 }
 .titlu {
     width: 100%;
     text-align: center;
     padding-top: 10px;
+    color: #fff;
     /* position: absolute; */
     /* left: 45%; */
     /* top: 50%; */
 }
+
+
 /* END BANNER */
 /* START MAIN */
+.titlu1 {
+    width: 100%;
+    text-align: center;
+}
+/* 
+.container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: auto;
+    padding-top: 30px;
+  
+}
+    /*  */
+
+    #banner1 {
+        position: relative;
+        background-image: url(../images/car-text.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 75px;
+    }
+    .text-container {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 600px;
+        text-align: center;
+        
+    }
+    .text-container p {
+        margin: 0;
+
+    }
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fancy-list {
+    width: 45%;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(47, 79, 79, 0.756);
+    border-radius: 8px;
+    margin: 55px;
+
+}
+.fancy-list li {
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+    text-align: center;
+}
+.fancy-list li:last-child {
+    border-bottom: none;
+}
+
 .container{
+    width: 100%;
+    
     margin: 20px 0px;
     padding: 10px 30px;
+    align-items: center;
+
+
 
 }
 .galerie {
@@ -69,6 +149,9 @@ nav ul li a {
     text-align: center;
 }
 #foto{
+   
+    justify-content: center;
+  
     width: 100%;
     max-width: 1100px;
     margin: 50px;
@@ -99,10 +182,19 @@ nav ul li a {
 }
 /* LIST STYLE */
 
-.titlu1 {
-    width: 100%;
-    text-align: center;
+/* MEDIA START */
+@media (max-width: 768px) {
+    #banner {
+        height: auto; 
+        padding: 20px;
+    }
+
+    .text-container {
+        max-width: 90%; 
+    }
+
+    .titlu1 {
+        font-size: 22px; 
+    }
 }
-.div-lista {
-    width: 100%;
-}
+/* MEDIA END */
