@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bokor';
+    src: url('Bokor-Regular.eot');
+    src: local('Bokor Regular'), local('Bokor-Regular'),
+        url('Bokor-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Bokor-Regular.woff2') format('woff2'),
+        url('Bokor-Regular.woff') format('woff'),
+        url('Bokor-Regular.ttf') format('truetype'),
+        url('Bokor-Regular.svg#Bokor-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
