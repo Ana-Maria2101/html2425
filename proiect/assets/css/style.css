@@ -258,3 +258,24 @@ nav ul li a {
     color: white;
 }
 /* Tabel ends */
+/* CONTACT PAGE */
+#contact div {
+    margin: 25px 0;
+}
+#contact label {
+    width: 100px;
+    display: inline-block;
+}
+#contact select{
+    width: 200px;
+
+}
+#contact fieldset{
+    display: inline-block;
+    width: 400px;
+    border: 2px solid red;
+}
+/* STOP CONTACT */
+/* START GENERAL */
+
+/* STOP GENERAL */
