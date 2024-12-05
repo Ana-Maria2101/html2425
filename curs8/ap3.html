@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recapitulare aplicatia 3</title>
+    <style>
+        nav {
+            width: 100%;
+            
+        }
+        nav ul {
+            height: 20px;
+            background-color: rgba(71, 61, 139, 0.507);
+            padding: 60px 0;
+        }
+        nav ul li {
+            display: inline;
+            padding: 20px 25px;
+            list-style-type: none;
+            font-size: 23px;
+            
+        }
+        nav ul li:hover, nav ul li.active{
+  
+  background-color:rgba(71, 61, 139, 0.828);
+  color: white;
+  
+  
+
+}
+.active {
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+        
+}
+ul.submeniu{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    
+}
+nav ul li ul li {
+    display: block;
+    
+
+}
+nav ul li:hover ul.submeniu {
+    display: block;
+    background-color: darkslateblue;
+    clear: both;
+    margin-top: 10px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
+
+ul.submeniu li a {
+    padding: 15px 20px;
+    text-decoration: none;
+    
+    
+}
+ul.submeniu li:hover {
+    background-color: rgba(48, 40, 95, 0.839);
+    color: white;
+}
+nav ul li:hover ul.submeniu li {
+    padding: 7px 5px 7px 5px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: 60% 35%; grid-gap: 10px;
+background-color:rgba(71, 61, 139, 0.293);
+padding: 10px;
+}
+.grid-container > div {
+background-color: rba (255, 255, 255, 0.8); text-align: center;
+padding: 20px 0; font-size: 20px;
+}
+.item2 {
+    width: 30px;
+    height: auto;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    display: inline-block;
+}
+img.item2{
+    width: 90px;
+    height: auto;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a>Acasa</a></li>
+            <li><a>Blog</a>
+            <ul class="submeniu">
+                <li><a href="#">Lista</a></li>
+                <li><a href="#">Paragrafe</a></li>
+                <li><a href="#">Numar</a></li>
+                <li><a href="#">Tabel</a></li>
+                <li><a href="#">Formular</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Portofoliu</a></li>
+            <li><a href="#">Despre noi</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="grid-container">
+    <div class="item1">
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi officiis eum distinctio! Maxime non quisquam
+            fugit? Pariatur molestiae tenetur omnis. Similique expedita alias fugit, quasi nulla, obcaecati at eligendi
+            provident ad atque, beatae pariatur adipisci voluptates? Vero, fugit beatae, iste consequatur aperiam
+            dolorem tenetur ex aliquid modi, nisi assumenda optio.</li>
+        <li>Autem nemo molestias laudantium reiciendis iusto veritatis. Nulla enim vel minima architecto quae ratione,
+            eaque aut eveniet alias sint nostrum qui sequi magnam molestias illum laudantium distinctio non? Inventore
+            dolorem, iusto eos velit amet exercitationem ipsa, soluta ipsam est deserunt dolores, iste aliquid natus
+            nemo neque aspernatur perferendis vero! Incidunt!</li>
+        <li>Quaerat eos in deserunt at, harum itaque soluta? Perspiciatis asperiores vel maiores dicta totam deleniti
+            corrupti, dolores ex dolor voluptatum laudantium necessitatibus iure esse impedit facilis? Nulla officiis
+            mollitia nam aliquid praesentium dolorum animi eligendi, esse sint aut eum voluptas voluptatibus autem
+            aspernatur repudiandae incidunt iure tempore veritatis, quia ab.</li>
+    </div>
+    <div class="item2">
+   
+        <img src="../proiect/assets/images/10d25bdb378895a468640cfb1577c697.jpg" alt="">
+        <p >Lorem ipsum dolor sit.</p>
+        <img src="../proiect/assets/images/8336a8ac4f71500833c75a5180b43aa1.jpg" alt="">
+        <p >Lorem ipsum dolor sit.</p>
+        <img src="../proiect/assets/images/456b150e6bc509da9d0be1fd7db47fac.jpg" alt="">
+        <p >Lorem ipsum dolor sit.</p>
+    </div>
+        
+    
+</div>
+    
+</body>
+</html>

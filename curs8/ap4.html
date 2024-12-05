@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recapitulare aplicatia 4</title>
+    <style>
+        .tabel{
+            border: 1px solid white;
+            width: 45%;
+            margin: auto;
+            
+        }
+        table tr td {
+            padding: 10px;
+            text-align: center;
+        }
+    table tbody tr:nth-child(2n+1){
+        background-color: darkslategray;
+    }
+    table tbody tr:nth-child(2n){
+        background-color: darkmagenta;
+    }
+    table tfoot tr:nth-child(2n+1){
+        background-color: rgba(0, 166, 255, 0.746);
+    }
+    table tfoot tr:nth-child(2n){
+        background-color: cadetblue;
+    }
+        
+
+    </style>
+</head>
+
+<body>
+ <table class="tabel">
+    <tbody>
+        <tr>
+            <td>Timisoara</td>
+            <td>200</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Cluj</td>
+            <td>150</td>
+            <td>7000</td>
+        </tr>
+        <tr>
+            <td>Bucuresti</td>
+            <td>1200</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Iasi</td>
+            <td>50</td>
+            <td>700</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>1600</td>
+            <td>12770</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>18770</td>
+            
+        </tr>
+    </tfoot>
+ </table>
+
+</body>
+
+</html>
